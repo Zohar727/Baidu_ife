@@ -3,50 +3,122 @@ body{
     margin: 0px 0px 0px 0px;
 }
 #nav{
-    background-color: #1fb2ff;
+    background-color: rgba(44, 44, 44, 0.92);
     margin: 0px 0px 20px 0px;
     padding: 5px 5px 5px 5px;
+    width: 100%;
+    height: 80px;
+}
+#nav h1{
+    float: left;
+    font-family: 楷体;
+    color: white;
+    padding-left: 20px;
+}
+.nav-a{
+    float: right;
+    margin-top: 10px;
+    margin-right:15px;
 }
 .nav-a li{
-    float: right;
+    float: left;
     line-height: 60px;
+    padding-right: 20px;
 }
-#part1{
+.nav-a a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav-a a:hover{
+    text-decoration: underline;
+    color: chocolate;
+}
+article{
     background-color: white;
     margin: 0px 25px 20px 25px;
     padding: 20px 20px 20px 20px;
     box-shadow: 2px 2px 2px #848484;
 }
-#part2{
-    background-color: white;
-    margin: 0px 25px 20px 25px;
-    padding: 20px 20px 20px 20px;
-    box-shadow: 2px 2px 2px #848484;
-}
-#part3{
-    background-color: white;
-    margin: 0px 25px 20px 25px;
-    padding: 20px 20px 20px 20px;
-    box-shadow: 2px 2px 2px #848484;
-}
-#part4{
-    background-color: white;
-    margin: 0px 25px 20px 25px;
-    padding: 20px 20px 20px 20px;
-    box-shadow: 2px 2px 2px #848484;
-}
-#part5{
+
+aside{
     background-color: white;
     margin: 0px 25px 20px 25px;
     padding: 20px 20px 20px 20px;
     box-shadow: 2px 2px 2px #848484;
 }
 #foot{
-    background-color: #2c2c2c;
+    background-color: black;
     margin:0px 0px 0px 0px;
     padding: 15px 15px 15px 15px;
     color: white;
     font-family: 微软雅黑;
     text-align: center;
 }
+article h2{
+    font-family: 微软雅黑;
+}
+article h3{
+    color: #919191;
+    line-height: 120%;
+    font-size: 100%;
+    font-family: 微软雅黑;
+}
+article address{
+    color:#919191;
+    font-size: 85%;
+}
+article p{
+    line-height:150%;
+}
+aside h2{
+    font-family: 微软雅黑;
+    border-left: 2px solid #c2c2c2;
+    padding-left: 9px;
+}
+.imge li{
+    border: 1px solid #c8beb7;
+    display: block;
+    width: 480px;
+    padding:9px 9px;
+    text-align: center;
+    margin: 10px;
+    font-family: 楷体;
+}
+.tablehead{
+    background-color: #2c2c2c;
+    color: white;
+    text-align: left;
+}
+article table{
+    width: 100%;
+    font-family: 微软雅黑;
+    border: 1px solid #cfcfcf;
+}
+.tabletail{
+    background-color: #cfcfcf;
+}
+.lasttable{
+    width: 100%;
+    margin: 0;
+    padding-left: 200px;
+    font-family: 微软雅黑;
+}
+#left{
+    text-align: right;
+}
+#table_foot{
+    text-align: center;
+}
+#table_tips{
+    color: #cfcfcf;
+}
+#submit{
+    background-color: #1c6fcf;
+    width: 50%;
+    height:35px;
+    font-family: 微软雅黑;
+    color: white;
+    border-radius: 20px;
+    margin-right: 200px;
 
+}

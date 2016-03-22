@@ -1,3 +1,4 @@
+html {overflow-x:hidden;}
 body{
     background-color: #b1eeff;
     margin: 0px 0px 0px 0px;
@@ -134,6 +135,7 @@ aside h2{
     color: white;
     font-family: 微软雅黑;
     text-align: center;
+
 }
 
 

@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+/*html{*/
+    /*overflow-x:auto;*/
+/*}*/
 .body{
     min-width: 1348px;
 }
@@ -196,7 +199,6 @@
     text-align: center;
 }
 .form{
-    width: 100%;
     position: absolute;
     top: 150px;
     left: 15%;
